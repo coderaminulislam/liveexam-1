@@ -1,3 +1,6 @@
+
+//Exam by Aminul
+
 void main(){
   List<Map<String, dynamic>> fruits =[
     {'Name': 'Apple', 'Color': 'Red', 'Price': 2.5},
@@ -20,6 +23,7 @@ void displayFruitDetails(List<Map<String, dynamic>>fruits){
 }
 
 void applyPriceDiscount(double discount, List<Map<String, dynamic>>fruits){
+
      print('Fruit Details After Applying 10% Discount:');
      for(dynamic fruit in fruits){
        print(' Name:${fruit['Name']}, Color: ${fruit['Color']},  Price:\$${fruit['Price']-fruit['Price']*discount/100}');
