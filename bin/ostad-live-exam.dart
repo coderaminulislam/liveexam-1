@@ -1,7 +1,7 @@
 void main(){
   List<Map<String, dynamic>> fruits =[
     {'Name': 'Apple', 'Color': 'Red', 'Price': 2.5},
-    {'Name': 'Banana', 'Color': 'Yello', 'Price': 1.0},
+    {'Name': 'Banana', 'Color': 'Yellow', 'Price': 1.0},
     {'Name': 'Grapes', 'Color': 'Purple', 'Price': 3.0},
   ];
 
