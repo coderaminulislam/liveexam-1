@@ -6,6 +6,7 @@ void main(){
   ];
 
   displayFruitDetails(fruits);
+  applyPriceDiscount(10, fruits);
 
 
 }
@@ -17,7 +18,11 @@ void displayFruitDetails(List<Map<String, dynamic>>fruits){
    }
 }
 
-void applyPriceDiscount(double discount){
+void applyPriceDiscount(double discount, List<Map<String, dynamic>>fruits){
+
+     for(dynamic fruit in fruits){
+       print('Fruit Details After Applying 10% Discount: : \$${fruit['Price']-fruit['Price']*discount/100}');
+     }
 
 
 }
